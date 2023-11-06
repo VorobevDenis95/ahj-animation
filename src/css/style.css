@@ -1,0 +1,40 @@
+html {
+    background-color: #7e7e7e;
+}
+
+body {
+    margin: 0;
+    background-color: #ffffff;
+}
+
+.btn {
+    margin: 20px;
+    padding: 10px 30px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #007bff;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #136ecf;
+}
+
+.wrapper {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.5s ease-in-out;
+}
+
+.description {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.active {
+    transition: max-height 0.5s ease-in-out;
+}
